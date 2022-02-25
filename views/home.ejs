@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="jquery.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="handle.js"></script>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="information">
+            <input type="text" id="txtHoTen" placeholder="Ho Ten">
+            <input type="text" id="txtEmail" placeholder="Email">
+            <input type="text" id="txtSDT" placeholder="Phone">
+            <input type="button" id="btnRegister" value="Send">
+        </div>
+
+        <div id="listUsers">
+            <h3>Danh sach hoc vien</h3>
+            <div id="ds">
+                <div class="hocvien">
+                    <div class="hang1">id: 1 | Name</div>
+                    <div class="hang2">name@yahoo.com</div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

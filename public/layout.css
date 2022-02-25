@@ -1,0 +1,15 @@
+#wrapper {
+    width: 600px;
+    margin: auto;
+}
+
+#information {
+    border: solid 1px gray;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.hocvien {
+    border-bottom: solid 1px black;
+}
