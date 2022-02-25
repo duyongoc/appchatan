@@ -1,4 +1,4 @@
-var socket = io("http://localhost:3000");
+var socket = io("https://appchatan.herokuapp.com");
 
 
 socket.on("server_send_list", function(data) {
